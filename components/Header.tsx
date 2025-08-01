@@ -17,7 +17,7 @@ export default function Hero() {
         <Image
           src={assets.profile_img}
           alt="Pratham's profile photo"
-          className="rounded-full w-28 h-40"
+          className="rounded-full w-28 h-40 mt-20"
           priority
         />
       </motion.div>

@@ -84,13 +84,13 @@ export const workData = [
         title: 'Hotel booking app',
         description: 'A web app for searching and booking hotels online.',
         sourceCodeLink:'',
-        bgImage: work1,
-        liveDemoLink:""
+        bgImage: work6,
+        liveDemoLink:"https://hotel-booking-frontend-woad.vercel.app/"
     },
     {
         title: 'Blog website',
         description: 'A platform for sharing and reading blogs.',
-        sourceCodeLink:'https://github.com/pratham40/BlogPost',
+        sourceCodeLink:'https://github.com/pratham40/Blog-Post',
         bgImage: work3,
         liveDemoLink:""
     },
@@ -98,7 +98,7 @@ export const workData = [
         title: 'Learning management system',
         description: 'A web app for managing online courses and learning materials.',
         sourceCodeLink:'https://github.com/pratham40/LMS',
-        bgImage: work6,
+        bgImage: work1,
         liveDemoLink:""
     },
 ]
