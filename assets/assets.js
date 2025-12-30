@@ -38,6 +38,7 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import work1 from './work-1.png';
 import work6 from './work-6.png';
 import work3 from './work-3.png';
+import resume from './resume.png';
 
 export const assets = {
     user_image,
@@ -81,18 +82,18 @@ export const assets = {
 
 export const workData = [
     {
+        title: 'AI Resume Builder',
+        description: 'An AI-powered resume builder that helps users create professional resumes quickly and easily.',
+        sourceCodeLink:'https://github.com/pratham40/Resume-Builder',
+        bgImage:resume,
+        liveDemoLink:""
+    },
+    {
         title: 'Hotel booking app',
         description: 'A web app for searching and booking hotels online.',
         sourceCodeLink:'https://github.com/pratham40/Hotel-Booking',
         bgImage: work6,
         liveDemoLink:"https://hotel-booking-frontend-woad.vercel.app/"
-    },
-    {
-        title: 'Blog website',
-        description: 'A platform for sharing and reading blogs.',
-        sourceCodeLink:'https://github.com/pratham40/Blog-Post',
-        bgImage: work3,
-        liveDemoLink:""
     },
     {
         title: 'Learning management system',
@@ -101,6 +102,13 @@ export const workData = [
         bgImage: work1,
         liveDemoLink:""
     },
+    {
+        title: 'Blog website',
+        description: 'A platform for sharing and reading blogs.',
+        sourceCodeLink:'https://github.com/pratham40/Blog-Post',
+        bgImage: work3,
+        liveDemoLink:""
+    }
 ]
 
 export const infoList = [
